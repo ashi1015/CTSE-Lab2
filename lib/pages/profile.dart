@@ -35,7 +35,20 @@ class Profile extends StatelessWidget {
             "CTSE-Lab 2",
             style: TextStyle(
                 fontSize: 18, fontStyle: FontStyle.italic, color: Colors.cyan),
-          )
+          ),
+          Center(
+              child: Container(
+                  child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(
+                child: Icon(Icons.facebook),
+              ),
+              Container(
+                child: Icon(Icons.email),
+              ),
+            ],
+          )))
         ],
       ),
     );
